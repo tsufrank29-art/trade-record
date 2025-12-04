@@ -9,8 +9,11 @@
 
 請參考 `backend/README.md` 完成安裝與啟動。
 
-## Frontend
+## CI
 [![Frontend CI](https://github.com/<your-org>/trade-record/actions/workflows/ci-frontend.yml/badge.svg)](https://github.com/<your-org>/trade-record/actions/workflows/ci-frontend.yml)
+[![Laravel Tests](https://github.com/<your-org>/trade-record/actions/workflows/ci-backend.yml/badge.svg)](https://github.com/<your-org>/trade-record/actions/workflows/ci-backend.yml)
+
+## Frontend
 
 ### 開發啟動
 ```bash

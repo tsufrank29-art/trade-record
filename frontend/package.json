@@ -40,7 +40,11 @@
   },
   "jest": {
     "preset": "jest-expo",
+    "setupFiles": ["<rootDir>/jest.setup.ts"],
     "setupFilesAfterEnv": ["@testing-library/jest-native/extend-expect"],
+    "moduleNameMapper": {
+      "^@/(.*)$": "<rootDir>/src/$1"
+    },
     "testPathIgnorePatterns": ["/node_modules/", "/.expo/", "/dist/"],
     "transformIgnorePatterns": [
       "node_modules/(?!(jest-)?react-native|@react-native|@react-navigation|@react-native-async-storage/async-storage|@tanstack/react-query)"

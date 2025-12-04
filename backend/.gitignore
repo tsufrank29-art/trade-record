@@ -1,9 +1,0 @@
-/vendor
-/node_modules
-.env
-.phpunit.result.cache
-/storage/*.key
-/storage/framework/cache/*
-/storage/framework/sessions/*
-/storage/framework/views/*
-/database/database.sqlite
